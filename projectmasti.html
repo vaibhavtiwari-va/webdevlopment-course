@@ -1,0 +1,101 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+
+<head> 
+	<style> 
+		.services-container { 
+			max-width: -600px; 
+			height: 600px;
+			margin: 0 auto; 
+			color: #e0e2db; 
+			background: url( 
+				https://media.istockphoto.com/id/518002738/photo/java-button-on-computer-keyboard.jpg?s=1024x1024&w=is&k=20&c=Wve4yoApKuM4_lAQjmRDHwI1URowyCVBsP8qDw_9ias=); 
+			background-position: center; 
+			background-size:cover; 
+			background-repeat: no-repeat; 
+		} 
+
+		.service-item { 
+			overflow: hidden; 
+			position: relative; 
+			padding: 80px; 
+		} 
+
+		.service-item-black { 
+			background: linear-gradient( 
+				rgba(0, 0, 0, 0.7), 
+				rgba(0, 0, 0, 0.7) 
+			); 
+		} 
+
+		.front-text { 
+			text-align: center; 
+			transition: transform 2s; 
+		} 
+
+		.back-text { 
+			position: absolute; 
+			bottom: -15em; 
+			width: 75%; 
+			margin: 0 auto; 
+			height: 100%; 
+			transition: bottom 2s; 
+			padding: 20px 0; 
+		} 
+
+		.back-text h1 { 
+			margin-bottom: 20px; 
+		} 
+
+		.back-text button { 
+			margin-top: 20px; 
+			padding: 20px 10px; 
+			background: transparent; 
+			border: 2px solid blue; 
+			font-size: 20px; 
+			color:blue; 
+		} 
+
+		.back-text button:hover { 
+			background-color: blue; 
+			color:blueviolet; 
+		} 
+
+		.service-item:hover .front-text { 
+			transform: translateY(-200px); 
+		} 
+
+		.service-item:hover .back-text { 
+			bottom: 0; 
+		} 
+	</style> 
+</head> 
+
+<body> 
+	<div class="services-container"> 
+		<article class="service-item 
+	service-item-black"> 
+			<div class="front-text"> 
+				
+				<h1>JAVA</h1> 
+				<h1 class="max-width"></h1>
+			</div> 
+
+			<div class="back-text"> 
+				<h1>Java</h1> 
+				<h1 position="center"></h1>
+
+				<p> <font face="arial black">
+					Java is a object oriented programming.It does not allows multiple inheritance.
+					It is useful programme for android developers.It is very easy language.
+					</font>
+				</p> 
+
+				<button type="button">Read More</button> 
+			</div> 
+		</article> 
+	</div> 
+</body> 
+
+</html> 
+
