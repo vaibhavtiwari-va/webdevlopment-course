@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: darkkhaki;
+}
+
+.container1{
+    background-color: rgb(154, 126, 77);
+    margin: 34px;
+    align-items: center;
+    justify-content: 5px;
+    overflow-y: scroll;
+    text-align: 6px;
+    scrollbar-width: 1px;
+    scroll-margin: 7vh;
+
+
+
+}
+
+.container1.box{
+    background-color: rgb(200, 200, 100);
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+
+.SIGNIN{
+    background-color: blueviolet;
+    color: white;
+    box-shadow: 2px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-shadow: 0.5px;
+
+}
+.REGISTER{
+    background-color: rgb(208, 133, 34);
+    color: white;
+    text-shadow: azure;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+}
