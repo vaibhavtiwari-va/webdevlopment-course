@@ -1,0 +1,62 @@
+.chat-tile {
+    display: flex;
+    color: grey;
+    height: 72px;
+    position: relative;
+    margin-bottom: 0px;
+    /* padding: 12px; */
+    column-gap: 10px;
+    align-items: center;
+  }
+
+  .chat-tile:hover{
+    background-color: grey;
+    cursor: pointer;
+  }
+
+  .chat-tile&gt img{
+      height: 49px;
+      width: 49px;
+      border-radius: 50%;
+      margin: 0px 5px 0px 13px;
+
+}
+.chat-tile ::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  width: 100%;
+  height: 0.1px;
+  background-color: black;
+}
+
+.chat-tiles-details {
+  flex-grow: 1;
+  padding-right: 15px;
+
+}
+.chat-tile-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.chat-tile-title&gt :first-child{
+  color: white;
+  font-size: 17px;
+}
+
+.chat-tile-title&gt :nth-child(2){
+  font-size: 12px;
+}
+
+.chat-tile-subtitle{
+  display: flex;
+  white-space: nowrap;
+  justify-content: space-between;
+}
+
+.chat-tile:hover&gt.chat-tile-details&gt.chat-tile-subtitle~.chat-tile-menu {
+  display: inline-flexbox;
+  background-color: red;
+}
